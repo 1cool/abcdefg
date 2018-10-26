@@ -42,8 +42,8 @@ def to_json(j):
 def login():
     # account = input('Account(Phone):')
     # password = getpass(prompt='Password:')
-    account = '13273901621'
-    password = 'vivox23'
+    account = ''
+    password = ''
     assert account or password
 
     p = {'account': account, 'password': password, 'areaCode': '86', 'appVersion': '4.0.6', 'clientType': '1',
